@@ -100,7 +100,7 @@ const Portfolio = () => {
   };
 
   const renderHome = () => (
-    <div className="space-y-32">
+    <div className="space-y-32 md:space-y-48">
       {/* Hero Section */}
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 via-purple-600/10 to-emerald-600/10 rounded-3xl blur-3xl"></div>
@@ -141,10 +141,10 @@ const Portfolio = () => {
       </div>
 
       {/* Core Expertise */}
-      <div className="pt-16">
+      <div className="pt-24">
         <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Core Expertise</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-blue-500/50 transition-all">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50 hover:border-blue-500/50 transition-all">
             <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-4">
               <Brain className="w-6 h-6 text-blue-400" />
             </div>
@@ -157,7 +157,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-purple-500/50 transition-all">
+          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50 hover:border-purple-500/50 transition-all">
             <div className="w-12 h-12 bg-purple-500/10 rounded-xl flex items-center justify-center mb-4">
               <Code2 className="w-6 h-6 text-purple-400" />
             </div>
@@ -170,7 +170,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-emerald-500/50 transition-all">
+          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50 hover:border-emerald-500/50 transition-all">
             <div className="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mb-4">
               <Database className="w-6 h-6 text-emerald-400" />
             </div>
@@ -183,7 +183,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-cyan-500/50 transition-all">
+          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50 hover:border-cyan-500/50 transition-all">
             <div className="w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-4">
               <Server className="w-6 h-6 text-cyan-400" />
             </div>
@@ -199,10 +199,10 @@ const Portfolio = () => {
       </div>
 
       {/* Professional Experience */}
-      <div className="pt-16">
+      <div className="pt-24">
         <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Professional Experience</h2>
-        <div className="space-y-10">
-          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
+        <div className="space-y-12">
+          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50">
             <div className="flex justify-between items-start mb-4">
               <div>
                 <h3 className="text-xl font-semibold text-white">Associate Software Engineer</h3>
@@ -232,9 +232,9 @@ const Portfolio = () => {
       </div>
 
       {/* Education */}
-      <div className="pt-16">
+      <div className="pt-24">
         <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Education</h2>
-        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 rounded-2xl border border-slate-700/50">
+        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50">
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-semibold text-white">B.E in Computer Science Engineering</h3>
@@ -369,7 +369,7 @@ const Portfolio = () => {
     <div className="min-h-screen bg-slate-950 text-white">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/50">
-        <div className="max-w-7xl mx-auto px-6 py-4">
+        <div className="max-w-5xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center font-bold text-lg">
@@ -420,7 +420,7 @@ const Portfolio = () => {
       </nav>
 
       {/* Content */}
-      <main className="max-w-7xl mx-auto px-6 py-24">
+      <main className="max-w-5xl mx-auto px-6 py-24 md:py-32">
         {activeTab === 'home' && renderHome()}
         {activeTab === 'mlops' && renderProject('mlops')}
         {activeTab === 'backend' && renderProject('backend')}
@@ -428,8 +428,8 @@ const Portfolio = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/50 mt-20">
-        <div className="max-w-7xl mx-auto px-6 py-8">
+      <footer className="border-t border-slate-800/50 mt-32">
+        <div className="max-w-5xl mx-auto px-6 py-12">
           <div className="flex justify-between items-center">
             <p className="text-slate-400">© 2025 Joevishah Mergil S. All rights reserved.</p>
             <div className="flex gap-4">
