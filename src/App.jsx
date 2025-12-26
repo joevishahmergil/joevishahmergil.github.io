@@ -100,28 +100,28 @@ const Portfolio = () => {
   };
 
   const renderHome = () => (
-    <div className="space-y-32 md:space-y-48">
+    <div className="space-y-48 md:space-y-64">
       {/* Hero Section */}
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 via-purple-600/10 to-emerald-600/10 rounded-3xl blur-3xl"></div>
         <div className="relative bg-gradient-to-br from-slate-900/90 to-slate-800/90 backdrop-blur-xl rounded-3xl p-12 border border-slate-700/50">
           <div className="flex items-start justify-between">
-            <div className="text-center md:text-left space-y-8 flex-1">
+            <div className="text-center space-y-10 flex-1">
               <div className="inline-block px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-emerald-400 text-sm font-medium">
                 Available for Full-Time Opportunities
               </div>
               <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent leading-tight">
                 Joevishah Mergil S
               </h1>
-              <p className="text-2xl md:text-3xl text-slate-300 font-medium">
+              <p className="text-2xl md:text-4xl text-slate-300 font-medium">
                 Generative AI Engineer & Python Developer
               </p>
-              <p className="text-lg md:text-xl text-slate-400 leading-relaxed max-w-3xl mx-auto md:mx-0">
+              <p className="text-lg md:text-xl text-slate-400 leading-relaxed max-w-3xl mx-auto">
                 Specializing in LLM-powered applications, RAG systems, and agentic AI workflows.
                 Experienced in building production-grade solutions with LangChain, Azure AI Search,
                 and vector databases. Passionate about bridging AI research and real-world deployment.
               </p>
-              <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
+              <div className="flex flex-wrap justify-center gap-6 pt-8">
                 <a href="mailto:joevishahmergil@gmail.com" className="flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-xl font-semibold transition-all hover:scale-105 shadow-lg shadow-blue-600/20">
                   <Mail className="w-5 h-5" />
                   Email Me
@@ -141,8 +141,8 @@ const Portfolio = () => {
       </div>
 
       {/* Core Expertise */}
-      <div className="pt-24">
-        <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Core Expertise</h2>
+      <div className="pt-32">
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-16 text-center">Core Expertise</h2>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50 hover:border-blue-500/50 transition-all">
             <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-4">
@@ -199,18 +199,17 @@ const Portfolio = () => {
       </div>
 
       {/* Professional Experience */}
-      <div className="pt-24">
-        <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Professional Experience</h2>
+      {/* Professional Experience */}
+      <div className="pt-32">
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-16 text-center">Professional Experience</h2>
         <div className="space-y-12">
-          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50">
-            <div className="flex justify-between items-start mb-4">
-              <div>
-                <h3 className="text-xl font-semibold text-white">Associate Software Engineer</h3>
-                <p className="text-blue-400 font-medium">CapeStart Software Pvt. Ltd</p>
-              </div>
-              <span className="text-slate-400">July 2024 – Present</span>
+          <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50 text-center">
+            <div className="flex flex-col items-center mb-8">
+              <h3 className="text-2xl font-bold text-white mb-2">Associate Software Engineer</h3>
+              <p className="text-blue-400 font-medium text-lg">CapeStart Software Pvt. Ltd</p>
+              <span className="text-slate-400 mt-2">July 2024 – Present</span>
             </div>
-            <ul className="space-y-3 text-slate-300">
+            <ul className="space-y-4 text-slate-300 text-left max-w-3xl mx-auto">
               <li className="flex items-start gap-3">
                 <ChevronRight className="w-5 h-5 text-emerald-400 mt-0.5 flex-shrink-0" />
                 <span>Engineered enterprise-grade RAG chatbot with Azure OpenAI and Cosmos DB, achieving 92% semantic relevance rate across 7,000+ documents</span>
@@ -232,16 +231,15 @@ const Portfolio = () => {
       </div>
 
       {/* Education */}
-      <div className="pt-24">
-        <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Education</h2>
-        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50">
-          <div className="flex justify-between items-start">
-            <div>
-              <h3 className="text-xl font-semibold text-white">B.E in Computer Science Engineering</h3>
-              <p className="text-blue-400 font-medium">Arunachala College (Anna University)</p>
-              <p className="text-slate-400 mt-2">CGPA: 8.8 / 10</p>
-            </div>
-            <span className="text-slate-400">2020 – 2024</span>
+      {/* Education */}
+      <div className="pt-32">
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-16 text-center">Education</h2>
+        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-slate-700/50 text-center">
+          <div className="flex flex-col items-center">
+            <h3 className="text-2xl font-bold text-white mb-2">B.E in Computer Science Engineering</h3>
+            <p className="text-blue-400 font-medium text-lg">Arunachala College (Anna University)</p>
+            <p className="text-slate-400 mt-2">CGPA: 8.8 / 10</p>
+            <span className="text-slate-400 mt-2">2020 – 2024</span>
           </div>
         </div>
       </div>
