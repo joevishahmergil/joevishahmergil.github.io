@@ -100,37 +100,37 @@ const Portfolio = () => {
   };
 
   const renderHome = () => (
-    <div className="space-y-16">
+    <div className="space-y-32">
       {/* Hero Section */}
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 via-purple-600/10 to-emerald-600/10 rounded-3xl blur-3xl"></div>
         <div className="relative bg-gradient-to-br from-slate-900/90 to-slate-800/90 backdrop-blur-xl rounded-3xl p-12 border border-slate-700/50">
           <div className="flex items-start justify-between">
-            <div className="space-y-6 flex-1">
+            <div className="text-center md:text-left space-y-8 flex-1">
               <div className="inline-block px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-emerald-400 text-sm font-medium">
                 Available for Full-Time Opportunities
               </div>
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">
+              <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent leading-tight">
                 Joevishah Mergil S
               </h1>
-              <p className="text-2xl text-slate-300 font-medium">
+              <p className="text-2xl md:text-3xl text-slate-300 font-medium">
                 Generative AI Engineer & Python Developer
               </p>
-              <p className="text-lg text-slate-400 leading-relaxed max-w-3xl">
-                Specializing in LLM-powered applications, RAG systems, and agentic AI workflows. 
-                Experienced in building production-grade solutions with LangChain, Azure AI Search, 
+              <p className="text-lg md:text-xl text-slate-400 leading-relaxed max-w-3xl mx-auto md:mx-0">
+                Specializing in LLM-powered applications, RAG systems, and agentic AI workflows.
+                Experienced in building production-grade solutions with LangChain, Azure AI Search,
                 and vector databases. Passionate about bridging AI research and real-world deployment.
               </p>
-              <div className="flex flex-wrap gap-4 pt-4">
-                <a href="mailto:joevishahmergil@gmail.com" className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-xl font-medium transition-all hover:scale-105">
+              <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
+                <a href="mailto:joevishahmergil@gmail.com" className="flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-xl font-semibold transition-all hover:scale-105 shadow-lg shadow-blue-600/20">
                   <Mail className="w-5 h-5" />
                   Email Me
                 </a>
-                <a href="https://linkedin.com/in/joevishah-mergil28" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-xl font-medium transition-all hover:scale-105">
+                <a href="https://linkedin.com/in/joevishah-mergil28" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-8 py-4 bg-slate-700 hover:bg-slate-600 rounded-xl font-semibold transition-all hover:scale-105">
                   <Linkedin className="w-5 h-5" />
                   LinkedIn
                 </a>
-                <a href="https://github.com/joevishah2000" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-xl font-medium transition-all hover:scale-105">
+                <a href="https://github.com/joevishah2000" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-8 py-4 bg-slate-700 hover:bg-slate-600 rounded-xl font-semibold transition-all hover:scale-105">
                   <Github className="w-5 h-5" />
                   GitHub
                 </a>
@@ -141,9 +141,9 @@ const Portfolio = () => {
       </div>
 
       {/* Core Expertise */}
-      <div>
-        <h2 className="text-3xl font-bold text-white mb-8">Core Expertise</h2>
-        <div className="grid md:grid-cols-2 gap-6">
+      <div className="pt-16">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Core Expertise</h2>
+        <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-blue-500/50 transition-all">
             <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-4">
               <Brain className="w-6 h-6 text-blue-400" />
@@ -199,9 +199,9 @@ const Portfolio = () => {
       </div>
 
       {/* Professional Experience */}
-      <div>
-        <h2 className="text-3xl font-bold text-white mb-8">Professional Experience</h2>
-        <div className="space-y-6">
+      <div className="pt-16">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Professional Experience</h2>
+        <div className="space-y-10">
           <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
             <div className="flex justify-between items-start mb-4">
               <div>
@@ -232,9 +232,9 @@ const Portfolio = () => {
       </div>
 
       {/* Education */}
-      <div>
-        <h2 className="text-3xl font-bold text-white mb-8">Education</h2>
-        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
+      <div className="pt-16">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center md:text-left">Education</h2>
+        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-10 rounded-2xl border border-slate-700/50">
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-semibold text-white">B.E in Computer Science Engineering</h3>
@@ -284,7 +284,7 @@ const Portfolio = () => {
               <div className="flex-1">
                 <h1 className="text-4xl font-bold text-white mb-3">{project.title}</h1>
                 <p className="text-xl text-slate-300 font-medium mb-6">{project.role}</p>
-                <a 
+                <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -299,13 +299,13 @@ const Portfolio = () => {
 
             {/* Metrics */}
             {project.metrics && (
-              <div className="grid grid-cols-3 gap-4 mt-8 pt-8 border-t border-slate-700/50">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 pt-12 border-t border-slate-700/50">
                 {project.metrics.map((metric, idx) => (
-                  <div key={idx} className="text-center">
-                    <div className={`text-3xl font-bold bg-gradient-to-r ${project.color} bg-clip-text text-transparent`}>
+                  <div key={idx} className="text-center p-6 bg-slate-900/50 rounded-2xl border border-slate-700/30">
+                    <div className={`text-4xl font-bold bg-gradient-to-r ${project.color} bg-clip-text text-transparent`}>
                       {metric.value}
                     </div>
-                    <div className="text-slate-400 text-sm mt-1">{metric.label}</div>
+                    <div className="text-slate-400 text-sm mt-3 font-medium uppercase tracking-wider">{metric.label}</div>
                   </div>
                 ))}
               </div>
@@ -352,7 +352,7 @@ const Portfolio = () => {
           <h2 className="text-2xl font-bold text-white mb-6">Tech Stack</h2>
           <div className="flex flex-wrap gap-3">
             {project.techStack.split(', ').map((tech, idx) => (
-              <span 
+              <span
                 key={idx}
                 className={`px-4 py-2 bg-gradient-to-r ${project.color} bg-opacity-10 border border-slate-600 rounded-xl text-slate-200 font-medium hover:scale-105 transition-all`}
               >
@@ -380,41 +380,37 @@ const Portfolio = () => {
             <div className="flex gap-2">
               <button
                 onClick={() => setActiveTab('home')}
-                className={`px-6 py-2 rounded-xl font-medium transition-all ${
-                  activeTab === 'home'
-                    ? 'bg-gradient-to-r from-blue-600 to-purple-600'
-                    : 'hover:bg-slate-800'
-                }`}
+                className={`px-6 py-2 rounded-xl font-medium transition-all ${activeTab === 'home'
+                  ? 'bg-gradient-to-r from-blue-600 to-purple-600'
+                  : 'hover:bg-slate-800'
+                  }`}
               >
                 Home
               </button>
               <button
                 onClick={() => setActiveTab('mlops')}
-                className={`px-6 py-2 rounded-xl font-medium transition-all ${
-                  activeTab === 'mlops'
-                    ? 'bg-gradient-to-r from-blue-600 to-cyan-600'
-                    : 'hover:bg-slate-800'
-                }`}
+                className={`px-6 py-2 rounded-xl font-medium transition-all ${activeTab === 'mlops'
+                  ? 'bg-gradient-to-r from-blue-600 to-cyan-600'
+                  : 'hover:bg-slate-800'
+                  }`}
               >
                 MLOps
               </button>
               <button
                 onClick={() => setActiveTab('backend')}
-                className={`px-6 py-2 rounded-xl font-medium transition-all ${
-                  activeTab === 'backend'
-                    ? 'bg-gradient-to-r from-purple-600 to-pink-600'
-                    : 'hover:bg-slate-800'
-                }`}
+                className={`px-6 py-2 rounded-xl font-medium transition-all ${activeTab === 'backend'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600'
+                  : 'hover:bg-slate-800'
+                  }`}
               >
                 Backend
               </button>
               <button
                 onClick={() => setActiveTab('fullstack')}
-                className={`px-6 py-2 rounded-xl font-medium transition-all ${
-                  activeTab === 'fullstack'
-                    ? 'bg-gradient-to-r from-emerald-600 to-teal-600'
-                    : 'hover:bg-slate-800'
-                }`}
+                className={`px-6 py-2 rounded-xl font-medium transition-all ${activeTab === 'fullstack'
+                  ? 'bg-gradient-to-r from-emerald-600 to-teal-600'
+                  : 'hover:bg-slate-800'
+                  }`}
               >
                 Full-Stack AI
               </button>
@@ -424,7 +420,7 @@ const Portfolio = () => {
       </nav>
 
       {/* Content */}
-      <main className="max-w-7xl mx-auto px-6 py-12">
+      <main className="max-w-7xl mx-auto px-6 py-24">
         {activeTab === 'home' && renderHome()}
         {activeTab === 'mlops' && renderProject('mlops')}
         {activeTab === 'backend' && renderProject('backend')}
