@@ -1,7 +1,5 @@
 # Joevishah Mergil - Generative AI Engineer & Python Developer
 
-![Portfolio Banner](public/banner-placeholder.png)
-
 Welcome to my personal portfolio repository! This project showcases my expertise in Generative AI, MLOps, and Full-Stack Development. It is built with **React**, **Vite**, and **Tailwind CSS v4**, designed to be fast, responsive, and visually stunning.
 
 ## 🚀 Live Demo
@@ -54,9 +52,7 @@ To deploy manual changes:
 2. The `Deploy to GitHub Pages` workflow will trigger automatically.
 
 ## 📬 Contact
-- **Email**: joevishahmergil@gmail.com
 - **LinkedIn**: [Joevishah Mergil](https://linkedin.com/in/joevishah-mergil28)
-- **GitHub**: [joevishah2000](https://github.com/joevishah2000)
 
 ---
 © 2025 Joevishah Mergil S. All rights reserved.
