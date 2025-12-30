@@ -141,7 +141,7 @@ const Portfolio = () => {
                 <img
                   src="/Untitled-2.jpg"
                   alt="Joevishah Mergil S"
-                  className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-slate-800 shadow-2xl"
+                  className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-top border-4 border-slate-800 shadow-2xl"
                 />
               </div>
             </div>
